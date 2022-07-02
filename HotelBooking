@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T06:10:13.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="-EjFhsMU6X5EIePK96nj" type="github"><diagram id="YL8t1pXRaCuknveQbjjz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-02T06:21:58.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JZmCObWE3VGACKBPVAuS" version="20.0.4" type="github">
+  <diagram id="YL8t1pXRaCuknveQbjjz" name="Page-1">
+    <mxGraphModel dx="1298" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-1" value="&lt;h1&gt;FR&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Inventory management - CRUD&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Inventory Search&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Inventory booking&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- PostSales&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Reporting&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;NFR&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Monitoring and analytics&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Strong Consistency&lt;/p&gt;&lt;p&gt;- High availability&lt;/p&gt;&lt;p&gt;- low latency on search&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="610" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
