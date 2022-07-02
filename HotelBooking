@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T09:14:18.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ij9RlzmbGdGt0yJebhEt" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-02T09:35:55.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9ChDuhNG1UCpXGuWUv3s" version="20.0.4" type="github">
   <diagram id="YL8t1pXRaCuknveQbjjz" name="Page-1">
     <mxGraphModel dx="1298" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,13 +14,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-4" target="SzTRS4pQg4edg_TvWqKi-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;LB&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=24;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="370" width="30" height="100" as="geometry" />
+          <mxGeometry x="310" y="370" width="30" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-6" target="SzTRS4pQg4edg_TvWqKi-8">
           <mxGeometry relative="1" as="geometry" />
@@ -29,41 +29,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inventory Service&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=24;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="295" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="375" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-8" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="480" y="390" width="60" height="60" as="geometry" />
+          <mxGeometry x="560" y="390" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-10" target="SzTRS4pQg4edg_TvWqKi-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-10" value="Q" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="305" y="500" width="100" height="60" as="geometry" />
+          <mxGeometry x="385" y="500" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-12" target="SzTRS4pQg4edg_TvWqKi-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-12" value="Search Service Consumer" style="whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="257.5" y="600" width="195" height="60" as="geometry" />
+          <mxGeometry x="337.5" y="600" width="195" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-14" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="325" y="710" width="60" height="60" as="geometry" />
+          <mxGeometry x="405" y="710" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SzTRS4pQg4edg_TvWqKi-16" value="Elastic Search (any Lucene Based) to &lt;br&gt;support text search and fuzzy search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="405" y="710" width="320" height="60" as="geometry" />
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-16" target="SzTRS4pQg4edg_TvWqKi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-16" value="Elastic Search (any Lucene Based) to &lt;br&gt;support text search and fuzzy search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="495" y="710" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-17" target="SzTRS4pQg4edg_TvWqKi-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-24" value="via cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="SzTRS4pQg4edg_TvWqKi-18">
+          <mxGeometry x="-0.32" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-17" value="Search Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="295" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="375" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-20" target="SzTRS4pQg4edg_TvWqKi-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-23" value="Search" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="SzTRS4pQg4edg_TvWqKi-19">
           <mxGeometry x="-0.1714" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="10" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
@@ -73,7 +81,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzTRS4pQg4edg_TvWqKi-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;LB&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=24;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="800" width="30" height="100" as="geometry" />
+          <mxGeometry x="270" y="800" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-25" target="SzTRS4pQg4edg_TvWqKi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-25" value="search can be served from cache. On selecting a hotel user will be &lt;br&gt;taken to review page at which time we will fetch the inventory real time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="820" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-26" target="SzTRS4pQg4edg_TvWqKi-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-26" value="Book Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="375" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-28" value="Book" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="SzTRS4pQg4edg_TvWqKi-27">
+          <mxGeometry x="-0.1714" y="-2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" target="SzTRS4pQg4edg_TvWqKi-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;LB&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=24;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="930" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-32" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1040" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="SzTRS4pQg4edg_TvWqKi-34" target="SzTRS4pQg4edg_TvWqKi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SzTRS4pQg4edg_TvWqKi-34" value="Book in two stages. Hold and Commit. Hold will lock the inventory&lt;br&gt;for N minutes for user to be able to complete the payment. Post payment&amp;nbsp;&lt;br&gt;success, commit will be called to persist the booking. Commit call&lt;br&gt;can be async." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="930" width="610" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
