@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T01:28:34.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Pe2OTSJaXMdxV50H_He0" version="20.0.4" type="github"><diagram id="-pFzq6e1m9lLXlwj_jgK" name="Page-1">7VdRb5swEP41PFZKcMLSx5Gk7UM6Tc3WPTtgjFvDIccJSX/9zmAChCSjU9dO04gU8Oe7s33f5zM4ZJrsbhXN4nsImXTcQbhzyMxx3aF7PcGbQfYl8skblQBXIrRGNbAUL8yCA4tuRMjWLUMNILXI2mAAacoC3cKoUpC3zSKQ7VEzylkHWAZUdtEfItRxiU7Ggxq/Y4LH1cjDge1JaGVsgXVMQ8gbEJk7ZKoAdPmU7KZMmuRVeSn9bs70HiamWKr7OOT5zaNaTxP/cSOn/InPlZ9d2ShbKjd2wY7rSYznx9jlcfN081BhGLyGKzCrgCsMdMs0/i9jUOb+/WHRcM16eC4g5ZXjwKfBcy//ClipY6TtVtCg9xW3mu2KlepEIjDEx7VW8MymIEEVJsQrLuyJhJQNPBqbn/HIaCBwzmTWaH2DDIErJIT4eSw0WyJuBs1xkyAGW6YiWYghFmHIUsQUbNKQGa6MVwSpbgxXXoc1oDvO/awOhgd14bZkkDCt9mhiHSrp2g1JbDOv1T28tljcVHalY2p3FD9ErkWHD1Z3r9Cg20ODX14jwjuctZnolgpJV0IKve8twwWygv9UszTo73UPqdCgRCFemoZFIM6L9n8hnhEiGfxtShyfUOIRVSzE48E2scjFwCGlcl6jR/mrbRZQkGHYfWJa7+1ZRzca2tyXY5qBLicW5wUbFbALCyL2xKSKM33BbnSaKMUk1WLbnsebZ33SyTpvniInCFjQFb5mtJJGpeCo3lmAOWIoVt9IU+A5/tl2JKjvkh+2Fi90VcQzDGUgUl2saew749klbduXDOtcH+1Nas4Lq5vffSt672zbQF/NxBsmEEVrpjt0HMb7fYZIh6GpFGbFx+S0tX+q4nR0/pZnmTs5UULcEyXE+1MV5NO/VkFGPSuI95EVZNTJ+qJ7yP5Cje2kv4E2+4iTvKc2vU6WytfsJVNbgVn56ISR4fjddjM26y+vskzW369k/hM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-02T05:50:27.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9AxyikTGUq_jrAOwwcSi" version="20.0.4" type="github">
+  <diagram id="-pFzq6e1m9lLXlwj_jgK" name="Page-1">
+    <mxGraphModel dx="1298" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wwFVrsCmBVulCgjgErBp-1" value="&lt;h1&gt;FR&lt;/h1&gt;&lt;p&gt;- Get Short URL&lt;/p&gt;&lt;p&gt;- Get Long URL Back&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-2" value="&lt;h1&gt;NFR&lt;/h1&gt;&lt;p&gt;- High availability&lt;/p&gt;&lt;p&gt;- Low Latency&lt;/p&gt;&lt;p&gt;- Monitoring and Logging&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="300" y="30" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wwFVrsCmBVulCgjgErBp-3" target="wwFVrsCmBVulCgjgErBp-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-8" value="get Short" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wwFVrsCmBVulCgjgErBp-5" vertex="1" connectable="0">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-3" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wwFVrsCmBVulCgjgErBp-4" target="wwFVrsCmBVulCgjgErBp-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-4" value="LB" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wwFVrsCmBVulCgjgErBp-6" target="4UaLe_JSywAciGtG7lt--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wwFVrsCmBVulCgjgErBp-6" target="4UaLe_JSywAciGtG7lt--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwFVrsCmBVulCgjgErBp-6" target="4UaLe_JSywAciGtG7lt--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFVrsCmBVulCgjgErBp-6" value="URL Service" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="315" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--1" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--3" value="Cache" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="4UaLe_JSywAciGtG7lt--5" target="4UaLe_JSywAciGtG7lt--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--5" value="Token&lt;br&gt;Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--7" value="&lt;h1&gt;Comments&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;X requests per seconds. Suppose we have to store for 5 years. So total unique tokens required -- &amp;gt; x * 60 * 60 * 24 * 365 * 5&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;All browsers support a-zA-Z0-9 -- Total 62 characters.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;6 char - 62^6 = 56B&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;7 char - 62^7 = 3.5T&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="690" width="760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--8" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="345" y="530" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--10" value="My SQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="405" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="4UaLe_JSywAciGtG7lt--11" target="4UaLe_JSywAciGtG7lt--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--11" value="Gives out ranges to every URL service. 1-1000, 1001-2000 etc." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="407.5" width="240" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--13" value="URL Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="4UaLe_JSywAciGtG7lt--14" target="4UaLe_JSywAciGtG7lt--16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="330" />
+              <mxPoint x="480" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--14" value="URL Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="4UaLe_JSywAciGtG7lt--16" target="4UaLe_JSywAciGtG7lt--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--16" value="Q" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4UaLe_JSywAciGtG7lt--18" value="Analytics Service" style="whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
