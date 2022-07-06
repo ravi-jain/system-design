@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T15:05:47.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="okURZGJWNC4-gNGwFqhK" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T03:57:04.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MPwiPOw83f6tNix2I6wQ" version="20.0.4" type="github">
   <diagram id="rF51wIjb-o-5hV6XAWWV" name="Page-1">
     <mxGraphModel dx="1298" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,6 +9,77 @@
         </mxCell>
         <mxCell id="pxuDFdO2gMAJ1eS5h_Go-2" value="&lt;h1&gt;NFR&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- High availability&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Realtime&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;- Low latency&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="440" y="120" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-3" target="pxuDFdO2gMAJ1eS5h_Go-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-3" value="C1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-4" target="pxuDFdO2gMAJ1eS5h_Go-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-4" value="C2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-5" target="pxuDFdO2gMAJ1eS5h_Go-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-5" value="WSH1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-7" target="pxuDFdO2gMAJ1eS5h_Go-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-7" target="pxuDFdO2gMAJ1eS5h_Go-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-7" value="WSH2" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-9" value="{&lt;br&gt;&amp;nbsp; &quot;from&quot; : &quot;C2&quot;,&lt;br&gt;&amp;nbsp; &quot;to&quot; : &quot;C1&quot;,&lt;br&gt;&amp;nbsp; &quot;message&quot; : &quot;Hi&quot;&lt;br&gt;}" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-12" value="DB" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="425" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-15" value="Redis cache. WSH2 will query redis to find out which machine is C1 connected to. If it is online it will return the address for C1" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-17" target="pxuDFdO2gMAJ1eS5h_Go-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-21" value="Store in DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="pxuDFdO2gMAJ1eS5h_Go-20">
+          <mxGeometry x="-0.2267" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-17" target="pxuDFdO2gMAJ1eS5h_Go-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-17" value="Message Service" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-19" value="DB" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-22" target="pxuDFdO2gMAJ1eS5h_Go-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="pxuDFdO2gMAJ1eS5h_Go-22" target="pxuDFdO2gMAJ1eS5h_Go-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-22" value="Asset Service" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-24" value="CDN" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-26" value="S3" style="whiteSpace=wrap;html=1;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxuDFdO2gMAJ1eS5h_Go-28" value="Asset Service will take a hash of the asset and if hash already present will return the stored location, else will store it fresh and return location" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="370" y="845" width="410" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
