@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T09:18:59.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ljO6Ie2g-gcLixJnG18V" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T11:35:17.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Nle1Y_2NNmNJQhz8G_zS" version="21.1.4" type="github">
   <diagram name="Page-1" id="l4bItQhknuIkyfT2mQaK">
     <mxGraphModel dx="2156" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="zPzWE7VY63OCw9VrKBVE-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zPzWE7VY63OCw9VrKBVE-21" target="zPzWE7VY63OCw9VrKBVE-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zPzWE7VY63OCw9VrKBVE-21" value="Group PNR with partial fullfilment" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zPzWE7VY63OCw9VrKBVE-21" value="Group PNR with partial fulfilment and real flight information" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zPzWE7VY63OCw9VrKBVE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zPzWE7VY63OCw9VrKBVE-23" target="zPzWE7VY63OCw9VrKBVE-8">
@@ -74,8 +74,8 @@
         <mxCell id="zPzWE7VY63OCw9VrKBVE-23" value="Fully Automated?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zPzWE7VY63OCw9VrKBVE-26" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="295" width="40" height="30" as="geometry" />
+        <mxCell id="zPzWE7VY63OCw9VrKBVE-26" value="Yes &lt;br&gt;(Less Probable)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zPzWE7VY63OCw9VrKBVE-30" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="385" width="40" height="30" as="geometry" />
@@ -89,6 +89,9 @@
           <mxGeometry x="140" y="120" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zPzWE7VY63OCw9VrKBVE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPzWE7VY63OCw9VrKBVE-35" target="zPzWE7VY63OCw9VrKBVE-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zPzWE7VY63OCw9VrKBVE-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zPzWE7VY63OCw9VrKBVE-35" target="zPzWE7VY63OCw9VrKBVE-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zPzWE7VY63OCw9VrKBVE-35" value="Get PNR works?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -139,8 +142,14 @@
         <mxCell id="zPzWE7VY63OCw9VrKBVE-53" value="AIS UI to update names" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-80" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zPzWE7VY63OCw9VrKBVE-59" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="435" width="40" height="30" as="geometry" />
+        <mxCell id="zPzWE7VY63OCw9VrKBVE-62" value="Yes &lt;br&gt;(Less Probable)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPzWE7VY63OCw9VrKBVE-63" value="Upload with&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPzWE7VY63OCw9VrKBVE-65" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="500" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
