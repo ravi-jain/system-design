@@ -1,9 +1,177 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T07:00:43.383Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="vypgegCpkJoWEW93saLq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T07:28:13.157Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="V2nb2tMq-tz_XdnHHMzq" version="21.6.9" type="github">
   <diagram name="Page-1" id="HqZ0z-GihFYfZ27upaGk">
-    <mxGraphModel>
+    <mxGraphModel dx="2156" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-1" target="fmq90YXcAQiHNmMbrNBv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-1" value="Schedule Change Detected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-2" target="fmq90YXcAQiHNmMbrNBv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-2" value="All affected blocks get marked with schedule change" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-4" target="fmq90YXcAQiHNmMbrNBv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-4" value="UI to display all affected blocks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-6" target="fmq90YXcAQiHNmMbrNBv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-6" value="Agent verifies with airline" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-8" target="fmq90YXcAQiHNmMbrNBv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-11">
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-8" target="fmq90YXcAQiHNmMbrNBv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-14">
+          <mxGeometry x="-0.3556" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-8" value="Is schedule change correct?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-10" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-13" target="fmq90YXcAQiHNmMbrNBv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-13" value="Agent confirms in AIS and updates the block" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-16" target="fmq90YXcAQiHNmMbrNBv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-20" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-19">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-16" target="fmq90YXcAQiHNmMbrNBv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-23" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-22">
+          <mxGeometry x="-0.3111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-16" value="All Unsold?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-18" value="Simply update the block. No other trigger." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-21" target="fmq90YXcAQiHNmMbrNBv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-21" value="1. Update Block&lt;br&gt;2. Update bookings" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-24" target="fmq90YXcAQiHNmMbrNBv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-24" value="Bookings update cause schedule change event to mojo and lob" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-33" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-29">
+          <mxGeometry x="-0.1556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-26" target="fmq90YXcAQiHNmMbrNBv-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-32" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-31">
+          <mxGeometry x="-0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-26" value="Customer accept?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-30" value="AIS Booking already upto date. GetPNR in mojo system to be done to update mojo" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-34" target="fmq90YXcAQiHNmMbrNBv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-37" value="B2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-36">
+          <mxGeometry x="0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-34" target="fmq90YXcAQiHNmMbrNBv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-42" value="Alternate AIS PNR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmq90YXcAQiHNmMbrNBv-41">
+          <mxGeometry x="-0.1778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-34" value="B2C/AIS Booking?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-35" target="fmq90YXcAQiHNmMbrNBv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-35" value="Cancel in AIS system&lt;br&gt;with a remark" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-38" value="Update in mojo system new PNR and do get pnr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-40" target="fmq90YXcAQiHNmMbrNBv-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-40" value="Trigger AIS date change" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fmq90YXcAQiHNmMbrNBv-43" target="fmq90YXcAQiHNmMbrNBv-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-43" value="In each booking update the correct PNR, flight details etc." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-45" value="When we do get all pnrs for block, it will return all pnrs (original and new individual booking pnrs)" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-46" value="UI Alignment needed. UI already there. to be UAT" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="262.5" width="60" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-47" value="Sched Change trigger&lt;br&gt;1. FIS&lt;br&gt;2. Scanner" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="260" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-48" value="UI Alignment needed. XL upload alredy there" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="702.5" width="60" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-49" value="Mojo fwd flow to be confirmed - Sarvesh" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1090" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fmq90YXcAQiHNmMbrNBv-50" value="Lob Event to update mojo" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
